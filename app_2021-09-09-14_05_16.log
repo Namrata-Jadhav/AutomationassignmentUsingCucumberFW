@@ -1,0 +1,17 @@
+2021-Sep-09 14:05:35 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - browser is maximised
+2021-Sep-09 14:05:35 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - deleted cookies
+2021-Sep-09 14:05:35 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:05:46 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - url navigated
+2021-Sep-09 14:05:46 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:05:49 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - clicked on sign in link
+2021-Sep-09 14:05:49 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:05:51 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - email id is entered: signupToCreateAccount@example.com
+2021-Sep-09 14:05:51 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:05:53 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - Title is selected as mrs
+2021-Sep-09 14:05:54 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - First name is entered: Namrata
+2021-Sep-09 14:05:54 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - Last name is entered: Jadhav
+2021-Sep-09 14:05:54 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - password is entered: 26April@2015
+2021-Sep-09 14:05:54 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - day is selected
+2021-Sep-09 14:05:54 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - month is selected
+2021-Sep-09 14:05:55 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - year is selected
+2021-Sep-09 14:05:55 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken

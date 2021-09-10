@@ -1,0 +1,4 @@
+2021-Sep-09 03:42:30 am [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - browser is maximised
+2021-Sep-09 03:42:30 am [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - deleted cookies
+2021-Sep-09 03:42:33 am [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - url navigated
+2021-Sep-09 03:43:03 am [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken

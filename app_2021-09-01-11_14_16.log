@@ -1,0 +1,9 @@
+2021-Sep-01 11:14:44 am [main] DEBUG StepDefs.StepDefs - browser is maximised
+2021-Sep-01 11:14:44 am [main] DEBUG StepDefs.StepDefs - deleted cookies
+2021-Sep-01 11:14:44 am [main] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken
+2021-Sep-01 11:14:56 am [main] DEBUG StepDefs.StepDefs - url navigated
+2021-Sep-01 11:14:59 am [main] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken
+2021-Sep-01 11:15:06 am [main] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken
+2021-Sep-01 11:15:13 am [main] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken
+2021-Sep-01 11:15:43 am [main] DEBUG StepDefs.StepDefs - Each step hook is executed, screen shot is taken
+2021-Sep-01 11:15:45 am [main] DEBUG StepDefs.StepDefs - browser quited

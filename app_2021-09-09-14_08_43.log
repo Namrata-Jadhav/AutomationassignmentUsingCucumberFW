@@ -1,0 +1,26 @@
+2021-Sep-09 14:09:13 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - browser is maximised
+2021-Sep-09 14:09:13 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - deleted cookies
+2021-Sep-09 14:09:13 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:09:26 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - url navigated
+2021-Sep-09 14:09:26 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:09:30 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - clicked on sign in link
+2021-Sep-09 14:09:30 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:09:33 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - email id is entered: signupToCreateAccount@example.com
+2021-Sep-09 14:09:33 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:09:36 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - Title is selected as mrs
+2021-Sep-09 14:09:37 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - First name is entered: Namrata
+2021-Sep-09 14:09:38 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - Last name is entered: Jadhav
+2021-Sep-09 14:09:38 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - password is entered: 26April@2015
+2021-Sep-09 14:09:39 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - day is selected
+2021-Sep-09 14:09:40 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - month is selected
+2021-Sep-09 14:09:40 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - year is selected
+2021-Sep-09 14:09:40 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - company name is entered:xyz pvt ltd
+2021-Sep-09 14:09:40 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - address is entered:Plot no. 12, Nagpur chawl, Yerwada
+2021-Sep-09 14:09:41 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - city is entered
+2021-Sep-09 14:09:41 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - state is selected
+2021-Sep-09 14:09:41 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - postcode is entered:00000
+2021-Sep-09 14:09:41 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - day is selected
+2021-Sep-09 14:09:41 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - m0bile number is entered:9923456789
+2021-Sep-09 14:09:44 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
+2021-Sep-09 14:09:44 pm [TestNG-PoolService-0] DEBUG StepDefs.StepDefs - new account is created
+2021-Sep-09 14:09:44 pm [TestNG-PoolService-0] DEBUG StepDefs.HooksDefs - Each step hook is executed, screen shot is taken
