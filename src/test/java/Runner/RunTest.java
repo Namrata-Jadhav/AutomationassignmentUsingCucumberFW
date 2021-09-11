@@ -22,5 +22,4 @@ public class RunTest extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 
-
 }

@@ -1,15 +1,15 @@
 package PageObjects;
 
+import Utils.TestContext;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class AddToCartPageObjects {
+    TestContext testContext;
 
-    WebDriver driver;
-
-    public AddToCartPageObjects(WebDriver driver){
-        this.driver= driver;
+    public AddToCartPageObjects(TestContext testContext){
+        this.testContext= testContext;
     }
 
     By ChangeColour= By.id("color_14");
@@ -38,31 +38,31 @@ public class AddToCartPageObjects {
     By SuccessMsg=By.xpath("//strong[text()='Your order on My Store is complete.']");
 
 
-    public void ClickToChangeColour(){ driver.findElement(ChangeColour).click();}
-    public void ValidateImageIsDisplayed(){driver.findElement(Blueimg).isDisplayed();}
-    public void ValidateAmount(){driver.findElement(Fetchamount).isDisplayed();}
-    public void ClickToIncreaseQuantity(){ driver.findElement(quantity).click();}
+    public void ClickToChangeColour(){ testContext.getDriver().findElement(ChangeColour).click();}
+    public void ValidateImageIsDisplayed(){testContext.getDriver().findElement(Blueimg).isDisplayed();}
+    public void ValidateAmount(){testContext.getDriver().findElement(Fetchamount).isDisplayed();}
+    public void ClickToIncreaseQuantity(){testContext.getDriver().findElement(quantity).click();}
     public void ClickToSelectSize(){
-        Select size = new Select(driver.findElement(Size));
+        Select size = new Select(testContext.getDriver().findElement(Size));
         size.selectByVisibleText("L");}
-    public void ClickToAddToCart(){ driver.findElement(addToCart).click();}
-    public void ValidateProduct(){  driver.findElement(product).isDisplayed();}
-    public void ValidateProductQuantity(){  driver.findElement(productQuantity).isDisplayed();}
-    public void ValidatePrice(){  driver.findElement(price).isDisplayed();}
-    public void ClickToProceedButton(){ driver.findElement(ProceedButton).click();}
-    public void ValidateImage(){driver.findElement(img).isDisplayed();}
-    public void ValidateAvailability(){driver.findElement(availability).isDisplayed();}
-    public void ValidateProductPrice(){driver.findElement(productPrice).isDisplayed();}
-     public void ValidateProductCount(){   driver.findElement(productCount).isDisplayed();}
-    public void ValidateTotalPrice(){driver.findElement(TotalPrice).isDisplayed();}
-     public void ValidateShipping(){  driver.findElement(shipping).isDisplayed();}
-      public void ValidateTotalBill(){  driver.findElement(TotalBill).isDisplayed();}
-    public void ClickToProceedToCheckout(){ driver.findElement( proceedCheckout).click();}
-    public void ClickOnProceedAddress(){ driver.findElement(proceedAddress).click();}
-      public void ClickToAgreeTermsAndConditions(){ driver.findElement(TermsAndCondition).click();}
-      public void ClickToOrder(){ driver.findElement(ProcessCarrier).click();}
-    public void ClickOnPaymentOption(){driver.findElement(PaymentOption).click();}
-    public void ClickOnCompleteProcessButton(){ driver.findElement(CompleteAction).click();}
-    public void DisplayOrderCompleteMsg(){ driver.findElement(SuccessMsg).isDisplayed();}
+    public void ClickToAddToCart(){ testContext.getDriver().findElement(addToCart).click();}
+    public void ValidateProduct(){  testContext.getDriver().findElement(product).isDisplayed();}
+    public void ValidateProductQuantity(){  testContext.getDriver().findElement(productQuantity).isDisplayed();}
+    public void ValidatePrice(){  testContext.getDriver().findElement(price).isDisplayed();}
+    public void ClickToProceedButton(){ testContext.getDriver().findElement(ProceedButton).click();}
+    public void ValidateImage(){testContext.getDriver().findElement(img).isDisplayed();}
+    public void ValidateAvailability(){testContext.getDriver().findElement(availability).isDisplayed();}
+    public void ValidateProductPrice(){testContext.getDriver().findElement(productPrice).isDisplayed();}
+     public void ValidateProductCount(){   testContext.getDriver().findElement(productCount).isDisplayed();}
+    public void ValidateTotalPrice(){testContext.getDriver().findElement(TotalPrice).isDisplayed();}
+     public void ValidateShipping(){  testContext.getDriver().findElement(shipping).isDisplayed();}
+      public void ValidateTotalBill(){  testContext.getDriver().findElement(TotalBill).isDisplayed();}
+    public void ClickToProceedToCheckout(){testContext.getDriver().findElement( proceedCheckout).click();}
+    public void ClickOnProceedAddress(){ testContext.getDriver().findElement(proceedAddress).click();}
+      public void ClickToAgreeTermsAndConditions(){ testContext.getDriver().findElement(TermsAndCondition).click();}
+      public void ClickToOrder(){ testContext.getDriver().findElement(ProcessCarrier).click();}
+    public void ClickOnPaymentOption(){testContext.getDriver().findElement(PaymentOption).click();}
+    public void ClickOnCompleteProcessButton(){ testContext.getDriver().findElement(CompleteAction).click();}
+    public void DisplayOrderCompleteMsg(){testContext.getDriver().findElement(SuccessMsg).isDisplayed();}
 
 }
